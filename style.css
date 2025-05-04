@@ -22,6 +22,12 @@ body {
   line-height: 1.2;
   background-color: #f9fafb;
   font-family: "Roboto";
+  background: no-repeat url("./images/background.jpg");
+  background-size: 610px auto;
+}
+
+.sign-up-form {
+  margin-left: 610px;
 }
 
 .sign-up-form__info-text {
@@ -42,6 +48,7 @@ body {
   display: grid;
   grid-template-columns: 300px 300px;
   gap: 16px;
+  min-width: fit-content;
 }
 
 .sign-up-form__input-fields h1 {
@@ -89,10 +96,13 @@ input[type="password"]:invalid {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  min-width: 200px;
 }
 
 .sign-in-text {
   margin-left: 40px;
+  margin-bottom: 20px;
+  white-space: nowrap;
 }
 
 .sign-in-text a {
