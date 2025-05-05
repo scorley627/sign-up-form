@@ -19,7 +19,7 @@
         Unsplash</a>
     </div>
   </div>
-  <form action="" method="get" class="sign-up-form">
+  <form action="" method="get" class="sign-up-form" autocomplete="off">
     <div class="sign-up-form__info-text">
       <p>
         This is not a real online service! You know you need something like
@@ -32,31 +32,29 @@
       <h1>Let's do this!</h1>
       <div class="input-field">
         <label for="first_name">FIRST NAME</label>
-        <input type="text" id="first_name" name="first_name" required
-          autocomplete="off">
+        <input type="text" id="first_name" name="first_name" required>
       </div>
       <div class="input-field">
         <label for="last_name">LAST NAME</label>
-        <input type="text" id="last_name" name="last_name" required
-          autocomplete="off">
+        <input type="text" id="last_name" name="last_name" required>
       </div>
       <div class="input-field">
         <label for="email">EMAIL</label>
-        <input type="email" id="email" name="email" required autocomplete="off">
+        <input type="email" id="email" name="email" required
+          autocomplete="new-password">
       </div>
       <div class="input-field">
         <label for="phone">PHONE NUMBER</label>
-        <input type="tel" id="phone" name="phone" autocomplete="off">
+        <input type="tel" id="phone" name="phone">
       </div>
       <div class="input-field">
         <label for="password">PASSWORD</label>
-        <input type="password" id="password" name="password" required
-          autocomplete="off">
+        <input type="password" id="password" name="password" required>
       </div>
       <div class="input-field">
         <label for="password_confirm">CONFIRM PASSWORD</label>
         <input type="password" id="password_confirm" name="password_confirm"
-          required autocomplete="off">
+          required>
       </div>
     </div>
     <button type="submit">Create Account</button>
