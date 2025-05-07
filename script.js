@@ -8,7 +8,7 @@ function handleDOMContentLoaded() {
 function handlePhoneFieldInput(event) {
   const phoneChars = /^[0-9+\- ]*$/;
   if (!phoneChars.test(event.target.value)) {
-    event.target.value = event.target.value.replace(/[^0-9+\- ]/, "");
+    event.target.value = event.target.value.replace(/[^0-9+\- ]/g, "");
   }
 
   if (event.target.validity.patternMismatch) {
